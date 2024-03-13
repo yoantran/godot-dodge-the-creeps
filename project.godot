@@ -13,3 +13,16 @@ config_version=5
 config/name="dodge-the-creeps"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=480
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[file_customization]
+
+folder_colors={
+"res://art/": "red",
+"res://fonts/": "red"
+}
