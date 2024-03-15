@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://bcpq55kdvkyx7"]
+[gd_scene load_steps=8 format=3 uid="uid://dfmj6gfth3y4i"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_1x8xg"]
 [ext_resource type="Texture2D" uid="uid://ckhncnpoqvahs" path="res://art/playerGrey_up1.png" id="2_wnf7i"]
@@ -46,3 +46,5 @@ animation = &"up"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_a1g0v")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

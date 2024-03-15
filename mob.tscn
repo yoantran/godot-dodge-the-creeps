@@ -57,8 +57,8 @@ metadata/_edit_group_ = true
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 scale = Vector2(0.75, 0.75)
 sprite_frames = SubResource("SpriteFrames_scc7s")
-animation = &"walk"
-frame_progress = 0.896692
+animation = &"fly"
+frame_progress = 0.553342
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, 0)
