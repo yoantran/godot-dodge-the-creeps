@@ -12,12 +12,15 @@ func _ready() -> void:
 func game_over() -> void:
     $ScoreTimer.stop()
     $MobTimer.stop()
+    $Music.stop()
+    $DeathSound.play()
 
 
 func new_game() -> void:
     score = 0
     $Player.start($StartPosition.position)
     $StartTimer.start()
+    $Music.play()
 
 
 func _on_mob_timer_timeout() -> void:
